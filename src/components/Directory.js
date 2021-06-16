@@ -21,14 +21,12 @@ class Directory extends Component {
     }
 
     componentDidMount() {
-        API.getEmployees()
-        .then((res) => 
-            this.setState({
+        API.getUsers()
+        .then(res => this.setState({
                 employees: res.data.results,
                 filteredResults: res.data.results,
-            })
-        )
-        .catch((err) => console.log(err));
+            }))
+        .catch(err => console.log(err));
     }
 
     handleInputChange = (event) => {
@@ -82,9 +80,9 @@ class Directory extends Component {
                         employee.name.first
                         .toLowerCase()
                         .concat(" ", employee.name.last.toLowerCase())
-                        .icludes(input) 
+                        .includes(input) 
                         || 
-                        employee.phone.icludes(input)
+                        employee.phone.includes(input)
                         ||
                         employee.phone.replace(/[^\w\s]/gi, "").includes(input) 
                         ||
