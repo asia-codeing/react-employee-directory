@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css"
 
 const Employees = (props) => {
     return(
@@ -29,15 +30,15 @@ const Employees = (props) => {
                     const dob = props.formatDate(employee.dob.date);
 
                     return (
-                        <tr key={employee.login.uuid}>
+                        <tr key={employee.id.value}>
                             <td>
-                                <img src={employee.picture.thumbnail} alt={fullName}/>
+                                <img src={employee.picture.medium} alt={fullName}/>
                             </td>
                             <td>{fullName}</td>
                             <td>
                                 <a href={`tel: +1${employee.phone}`}>{employee.phone}</a>
                             </td>
-                            <td>
+                            <td className="email">
                                 <a href={`mailto: +1${employee.email}`}>{employee.email}</a>
                             </td>
                             <td>{dob}</td>

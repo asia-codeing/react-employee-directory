@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import API from "../utils/API";
-import Employees from "./Employees";
-import Search from "./Search";
+import API from "../../utils/API";
+import Employees from "../Employees/Employees";
+import Search from "../Search/Search";
 
 class Directory extends Component {
     state = {
