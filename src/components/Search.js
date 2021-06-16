@@ -1,10 +1,18 @@
 import React from "react";
 
-function SearchBar(props) {
+function Search(props) {
     return (
-        <form className="search">
-
-
-        </form>
-    )
-}
+        <nav>
+            <form onSubmit={props.handleFormSubmit}>
+                <input
+                value={props.value}
+                name="search"
+                onChange={props.handleInputChange}
+                type="search"
+                placeholder="Search"
+                />
+            </form>
+        </nav>
+    );
+};
+export default Search;

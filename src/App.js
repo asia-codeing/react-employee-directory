@@ -1,13 +1,13 @@
 import './App.css';
 import React from "react";
 import Header from "./components/Header";
-import Employees from "./components/Employees";
+import Directory from "./components/Directory";
 
 function App() {
   return (
     <>
       <Header/>
-      <Employees/>
+      <Directory/>
     </>  
   );
 }
