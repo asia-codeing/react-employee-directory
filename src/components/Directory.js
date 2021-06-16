@@ -109,13 +109,23 @@ class Directory extends Component {
         return dob.join("-");
     }
     render () {
-        <>
-          <Search
-          value = { this.state.search}
-          handleInputChange = { this.handleInputChange}
-          handleFormSubmit = { this.handleFormSubmit}
-          />
-        </>
+        return (
+            <>
+                <Search
+                value = { this.state.search}
+                handleInputChange = { this.handleInputChange}
+                handleFormSubmit = { this.handleFormSubmit}
+                />
+                <div className="container mt-4">
+                    <Employees
+                    state = { this.state }
+                    sortBy = { this.sortBy }
+                    filteredResults = { this.filteredResults }
+                    formatDate = { this.formatDate }
+                    />
+                </div>
+            </>
+        )
     }
 }
 export default Directory;
