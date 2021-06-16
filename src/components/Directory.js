@@ -41,10 +41,10 @@ class Directory extends Component {
     };
 
     sortBy = (key, primary = 0, secondary = 0) => {
-        let sortedResults = this.state,filteredResults;
+        let sortedResults = this.state.filteredResults;
         if (this.state.sortDirections[key]) {
             this.setState({
-                filteredResults = sortedResults.reverse(),
+                filteredResults: sortedResults.reverse(),
                 sortDirections: {
                     ...this.initialSortDirections,
                     [key]: this.state.sortDirections[key] === "asc" ? "desc" : "asc",
@@ -53,7 +53,7 @@ class Directory extends Component {
         } else {
             sortedResults = this.state.filteredResults.sort((a, b) => {
                 a = a[key];
-                b = b [key];
+                b = b[key];
 
             if (primary) {
                 if (secondary && a[primary] === b[primary]) {
