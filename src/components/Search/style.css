@@ -1,8 +1,10 @@
 form {
     padding: 10px;
     text-align: center;
-    background-color: darksalmon;
+    background-color: #a84086;
 }
 input {
     font-size: 18px;
+    border-radius: 5px;
+    border: solid 1px #A84182;
 }
