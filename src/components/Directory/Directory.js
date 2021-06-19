@@ -31,8 +31,13 @@ class Directory extends Component {
 
     handleInputChange = (event) => {
         const value = event.target.value;
-        this.setState({ search: value });
-        this.filteredResults(value.toLowerCase().trim);
+        console.log(value);
+        const filterList = this.state.employees.filter(item => { 
+            let values = Object.values(item).join("").toLowerCase()
+            return values.indexOf(value.toLowerCase()) !== -1;
+        })       
+        this.setState({ filteredResults: filterList });
+        // this.filteredResults(value.toLowerCase().trim);
     };
     handleFormSubmit = (event) => {
         event.preventDefault();
@@ -118,7 +123,7 @@ class Directory extends Component {
                     <Employees
                     state = { this.state }
                     sortBy = { this.sortBy }
-                    filteredResults = { this.filteredResults }
+                    filteredResults = { this.state.filteredResults }
                     formatDate = { this.formatDate }
                     />
                 </div>
