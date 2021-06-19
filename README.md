@@ -1,4 +1,4 @@
-# OnlineOffline-Budget-Trackers
+# Employee-Directory(React App)
 [![licensing](https://img.shields.io/badge/license-MIT-brightgreen)](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository#searching-github-by-license-type)
 
 ## Description:
