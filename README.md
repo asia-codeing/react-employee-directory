@@ -1,3 +1,70 @@
+# OnlineOffline-Budget-Trackers
+[![licensing](https://img.shields.io/badge/license-MIT-brightgreen)](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository#searching-github-by-license-type)
+
+## Description:
+An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+
+
+## Table of contents
+* [Prerequisites](#Prerequisites)
+* [Usage](#usage)
+* [Screenshots](#screenshots)
+* [Link-to-deployed-application](#link-to-deployed-application)
+* [Technologies](#technologies)
+* [License](#license)
+* [Contributing](#contributing)
+* [Questions](#questions)
+
+## Prerequisites
+Install npm dependencies
+* 
+
+## Usage:
+
+
+### Localy:
+  * I separate terminal run the mongo database by usin this command:<br />
+  ```mongod --dbpath ~/path/to/your/app/data``` 
+  * Open new terminal.
+  * Make sure you are in the right directory.
+  * In the command line type node followed by the name of the file, like the command bellow:<br />
+  ```node server.js```
+  * I the browser type: http://localhost:app PORT number
+
+## Screenshots: 
+![Demo]()
+
+## Link-to-deployed-application
+[Employee-Directory](https://asia-codeing.github.io/react-employee-directory/)
+
+
+## Technologies
+Project is created with:
+* HTML
+* CSS 
+* Vanilla Javascript
+* Node.js
+* React
+
+
+## License:
+  This project is convered under the MIT License.
+
+## Contributing:
+  Contributions are accepted. Feel free to fork.
+ 
+
+## Questions:
+  For any questions, additional help or questions about collaboration, please contact me with the information below:
+ 
+  * GitHub: [GitHub-Profile](https://github.com/asia-codeing)
+  * Portfolio: [My-Portfolio](https://asia-codeing.github.io/my-Portfolio/)
+  * Email: asia.alius@gmail.com
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
