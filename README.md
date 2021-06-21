@@ -23,13 +23,9 @@ Install npm dependencies
 
 
 ### Localy:
-  * I separate terminal run the mongo database by usin this command:<br />
-  ```mongod --dbpath ~/path/to/your/app/data``` 
-  * Open new terminal.
   * Make sure you are in the right directory.
   * In the command line type node followed by the name of the file, like the command bellow:<br />
-  ```node server.js```
-  * I the browser type: http://localhost:app PORT number
+  ```npm start```
 
 ## Screenshots: 
 ![Demo]()
