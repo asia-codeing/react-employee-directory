@@ -6,7 +6,6 @@ function Search(props) {
         <nav>
             <form onSubmit={props.handleFormSubmit}>
                 <input
-                value={props.value}
                 name="search"
                 onChange={e => props.handleInputChange(e)}
                 type="search"
