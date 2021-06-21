@@ -37,7 +37,6 @@ class Directory extends Component {
             return values.indexOf(value.toLowerCase()) !== -1;
         })       
         this.setState({ filteredResults: filterList });
-        // this.filteredResults(value.toLowerCase().trim);
     };
     handleFormSubmit = (event) => {
         event.preventDefault();
