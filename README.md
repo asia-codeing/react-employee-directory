@@ -19,7 +19,7 @@ An employee or manager would benefit greatly from being able to view non-sensiti
 Install npm dependencies
 First make sure that you are install react globally if not you can use this command:<br />
 ``` sudo npm i -g create-react-app ```
-that command we need to do it once and if you are using windows no need to use `sudo` at the beganing of the command.  
+<br />This command we need to do it once and if you are using windows no need to use `sudo` at the beganing of the command.  
 * ``` npx create-react-app name-of-your-app ``` use to create new app
 * ``` npm install axios react-router-dom bootstrap ``` axios used for API's.
 
@@ -36,7 +36,7 @@ Thees two links are very helpful to do the deployment:
 * https://www.youtube.com/watch?v=F8s4Ng-re0E&list=LL&index=3&t=609s
 
 ## Screenshots: 
-![Demo]()
+![Demo](./public/demo.gif)
 
 ## Link-to-deployed-application
 [Employee-Directory](https://asia-codeing.github.io/react-employee-directory/)
