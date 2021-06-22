@@ -30,6 +30,10 @@ First make sure that you are install react globally if not you can use this comm
   * In the command line type node followed by the name of the file, like the command bellow:<br />
   ```npm start```
 
+### Deployed App:
+* By cliking on the heder of the table (Name, Phone, Email and DOB) the users will sorted ASC / DESC.
+* You can use the searching bar to Search on spacific Employee By name.
+
 ### Deployment:
 These two links are very helpful to do the deployment:
 * https://create-react-app.dev/docs/deployment
