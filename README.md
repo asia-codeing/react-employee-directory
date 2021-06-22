@@ -31,7 +31,7 @@ First make sure that you are install react globally if not you can use this comm
   ```npm start```
 
 ### Deployment:
-Thees two links are very helpful to do the deployment:
+These two links are very helpful to do the deployment:
 * https://create-react-app.dev/docs/deployment
 * https://www.youtube.com/watch?v=F8s4Ng-re0E&list=LL&index=3&t=609s
 
