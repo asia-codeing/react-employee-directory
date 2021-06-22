@@ -49,6 +49,7 @@ These two links are very helpful to do the deployment:
 ## Technologies
 Project is created with:
 * React
+* Axios
 * CSS 
 * Node.js
 
